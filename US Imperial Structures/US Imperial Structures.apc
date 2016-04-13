@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Matthew Anderson's Custom Catalog https://github.com/MattAndersonPE/Catalog/ -->
+<!--  GNU GENERAL PUBLIC LICENSE -->
+<pXML id="DCE203A2-D381-466f-A23E-08A9D9F8FDBD" version="1.0" name="Structures_USWI" xml:lang="en" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Desc>Matts Structure Catalog</Desc>
+	<DefaultLinearUnits>inch</DefaultLinearUnits>
+	<Images>
+		<Image>
+			<URL xlink:title="Catalog Image" xlink:href="Anderson.jpg" xlink:show="embed" xlink:actuate="onLoad"/>
+		</Image>
+	</Images>
+	<Supplier name="Anderson">
+		<Desc>Matts Structure Catalog</Desc>
+		<Images>
+			<Image>
+				<URL xlink:title="Logo" xlink:href="Anderson.jpg" xlink:show="embed" xlink:actuate="onLoad"/>
+			</Image>
+		</Images>
+		<Link>
+			<URL xlink:title="Homepage" xlink:href="https://github.com/MattAndersonPE/Catalog/" xml:lang="en"/>
+		</Link>
+	</Supplier>
+	<Extrinsics>
+		<Extrinsic>
+			<AeccCIRules>
+				<DomainHierarchy>
+					<Domain>
+						<DomainEnum>Structure_Domain</DomainEnum>
+						<Type>
+							<TypeEnum>Struct_General</TypeEnum>
+						</Type>
+					</Domain>
+				</DomainHierarchy>
+				<DomainSet>
+					<DomainEnum>Structure_Domain</DomainEnum>
+				</DomainSet>
+				<TypeSet>
+					<TypeEnum>Struct_Junction</TypeEnum>
+					<TypeEnum>Struct_InletOutlet</TypeEnum>
+					<TypeEnum>Struct_General</TypeEnum>
+				</TypeSet>
+				<SubTypeSet>
+					<SubTypeString>Undefined</SubTypeString>
+				</SubTypeSet>
+				<ShapeSet>
+					<PartShapeEnum>Undefined_Shape</PartShapeEnum>
+					<PartShapeEnum>Round</PartShapeEnum>
+					<PartShapeEnum>Rectangular</PartShapeEnum>
+					<PartShapeEnum>Oval</PartShapeEnum>
+				</ShapeSet>
+				<ConnectionTypeSet>
+					<ConnectionTypeEnum>Undefined_Connection_Type</ConnectionTypeEnum>
+				</ConnectionTypeSet>
+				<MaterialSet></MaterialSet>
+				<GaugeSet/>
+				<ParameterContextSet/>
+				<ParameterSet>
+					<ParameterString>SBSH</ParameterString>
+					<ParameterString>PDom</ParameterString>
+					<ParameterString>PTyp</ParameterString>
+					<ParameterString>PSTyp</ParameterString>
+					<ParameterString>PrtNm</ParameterString>
+					<ParameterString>PrtD</ParameterString>
+					<ParameterString>PrtID</ParameterString>
+					<ParameterString>DVer</ParameterString>
+					<ParameterString>CntTy</ParameterString>
+					<ParameterString>HPrtF</ParameterString>
+					<ParameterString>SBS</ParameterString>
+					<ParameterString>SBSL</ParameterString>
+					<ParameterString>SBSW</ParameterString>
+					<ParameterString>WTh</ParameterString>
+					<ParameterString>FTh</ParameterString>
+					<ParameterString>SFH</ParameterString>
+					<ParameterString>CusSF</ParameterString>
+					<ParameterString>SVPC</ParameterString>
+					<ParameterString>CatID</ParameterString>
+					<ParameterString>PrtSN</ParameterString>
+					<ParameterString>LenA1</ParameterString>
+					<ParameterString>LenA2</ParameterString>
+					<ParameterString>LenB1</ParameterString>
+					<ParameterString>SBSD</ParameterString>
+					<ParameterString>BdyD1</ParameterString>
+				</ParameterSet>
+				<UnitsSet>
+					<UnitsEnum/>
+					<UnitsEnum>inch</UnitsEnum>
+					<UnitsEnum>ft</UnitsEnum>
+					<UnitsEnum>mm</UnitsEnum>
+					<UnitsEnum>cm</UnitsEnum>
+					<UnitsEnum>m</UnitsEnum>
+					<UnitsEnum>deg</UnitsEnum>
+				</UnitsSet>
+				<RelativePathPreference>Table</RelativePathPreference>
+			</AeccCIRules>
+		</Extrinsic>
+	</Extrinsics>
+	<Chapter name="Simple Shapes">Simple Shapes
+		<Desc>Simple Shapes</Desc>
+		<Part name="AeccSimpleBox_Imperial" id="F4EB2FDD-470D-49A9-B7AE-CD7B322A71CB">
+			<Desc>Simple Box</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Simple Box" xlink:href="Simple Shapes\AeccSimpleBox_Imperial.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="Simple Shapes\AeccSimpleBox_Imperial.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_General" part_subtype="Undefined" part_shape="BoundingShape_Box" placeholder="False" hidepart="True"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="AeccSimpleCylinder_Imperial" id="40973D16-5EFF-4C84-8A56-3F6AC8FCD0D3"><Desc>Simple Cylinder</Desc><Images><Image><URL xlink:title="Simple Cylinder" xlink:href="Simple Shapes\AeccSimpleCylinder_Imperial.bmp" xlink:show="embed" xlink:actuate="onLoad"/></Image></Images><TableRef><URL xlink:href="Simple Shapes\AeccSimpleCylinder_Imperial.xml"/></TableRef><Extrinsics><Extrinsic name="AeccPartSearchAttribList"><AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_General" part_subtype="Undefined" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/></Extrinsic></Extrinsics></Part></Chapter>
+</pXML>
