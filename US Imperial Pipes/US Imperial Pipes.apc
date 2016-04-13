@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Matthew Anderson's Custom Catalog https://github.com/MattAndersonPE/Catalog/ -->
+<!--  GNU GENERAL PUBLIC LICENSE -->
+<pXML id="16C49365-B844-484b-92CE-9A8ACE681B57" version="1.0" name="US Imperial Pipes" xml:lang="en" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Desc>Matts Pipe Catalog</Desc>
+	<DefaultLinearUnits>inch</DefaultLinearUnits>
+	<Images>
+		<Image>
+			<URL xlink:title="Catalog Image" xlink:href="Anderson.jpg" xlink:show="embed" xlink:actuate="onLoad"/>
+		</Image>
+	</Images>
+	<Supplier name="Generic">
+		<Images>
+			<Image>
+				<URL xlink:title="Logo" xlink:href="Anderson.jpg" xlink:show="embed" xlink:actuate="onLoad"/>
+			</Image>
+		</Images>
+		<Link>
+			<URL xlink:title="Matts Pipe Catalog" xlink:href="https://github.com/MattAndersonPE/Catalog/" xml:lang="en"/>
+		</Link>
+	</Supplier>
+	<Extrinsics>
+		<Extrinsic>
+			<AeccCIRules>
+				<DomainHierarchy>
+					<Domain>
+						<DomainEnum>Pipe_Domain</DomainEnum>
+						<Type>
+							<TypeEnum>Pipe</TypeEnum>
+						</Type>
+					</Domain>
+				</DomainHierarchy>
+				<DomainSet>
+					<DomainEnum>Pipe_Domain</DomainEnum>
+				</DomainSet>
+				<TypeSet>
+					<TypeEnum>Pipe</TypeEnum>
+					<TypeEnum>Elbow</TypeEnum>
+					<TypeEnum>Tee</TypeEnum>
+					<TypeEnum>Wye</TypeEnum>
+					<TypeEnum>Cross</TypeEnum>
+					<TypeEnum>Takeoff</TypeEnum>
+					<TypeEnum>Transition</TypeEnum>
+					<TypeEnum>Coupling</TypeEnum>
+					<TypeEnum>Endcap</TypeEnum>
+				</TypeSet>
+				<SubTypeSet>
+					<SubTypeString>Undefined</SubTypeString>
+				</SubTypeSet>
+				<ShapeSet>
+					<PartShapeEnum>Round</PartShapeEnum>
+				</ShapeSet>
+				<ConnectionTypeSet>
+					<ConnectionTypeEnum>Undefined_Connection_Type</ConnectionTypeEnum>
+				</ConnectionTypeSet>
+				<MaterialSet>
+					<MaterialString>CSP</MaterialString>
+					<MaterialString>Reinforced Concrete Pipe</MaterialString>
+				</MaterialSet>
+				<ParameterSet>
+					<ParameterString>BTRowID</ParameterString>
+					<ParameterString>PIH</ParameterString>
+					<ParameterString>PIW</ParameterString>
+					<ParameterString>Rt</ParameterString>
+					<ParameterString>Rb</ParameterString>
+					<ParameterString>Rc</ParameterString>
+					<ParameterString>WTh</ParameterString>
+					<ParameterString>EqD</ParameterString>
+					<ParameterString>WWA</ParameterString>
+					<ParameterString>PDom</ParameterString>
+					<ParameterString>PTyp</ParameterString>
+					<ParameterString>PSTyp</ParameterString>
+					<ParameterString>PrtNm</ParameterString>
+					<ParameterString>PrtD</ParameterString>
+					<ParameterString>PrtID</ParameterString>
+					<ParameterString>DVer</ParameterString>
+					<ParameterString>CntTy</ParameterString>
+					<ParameterString>HPrtF</ParameterString>
+					<ParameterString>CSS</ParameterString>
+					<ParameterString>Mat</ParameterString>
+					<ParameterString>CatID</ParameterString>
+					<ParameterString>PrtSN</ParameterString>
+					<ParameterString>BdyD1</ParameterString>
+					<ParameterString>BdyD3</ParameterString>
+					<ParameterString>BdyD4</ParameterString>
+					<ParameterString>BdyD5</ParameterString>
+					<ParameterString>LenA1</ParameterString>
+					<ParameterString>LenA2</ParameterString>
+					<ParameterString>LenA3</ParameterString>
+					<ParameterString>LenA4</ParameterString>
+					<ParameterString>LenA5</ParameterString>
+					<ParameterString>PrtSze</ParameterString>
+					<ParameterString>ACMan</ParameterString>
+					<ParameterString>CusSF</ParameterString>
+				</ParameterSet>
+				<UnitsSet>
+					<UnitsEnum/>
+					<UnitsEnum>inch</UnitsEnum>
+					<UnitsEnum>ft</UnitsEnum>
+					<UnitsEnum>mm</UnitsEnum>
+					<UnitsEnum>cm</UnitsEnum>
+					<UnitsEnum>m</UnitsEnum>
+					<UnitsEnum>deg</UnitsEnum>
+					<UnitsString>squarefoot</UnitsString>
+				</UnitsSet>
+				<RelativePathPreference>Table</RelativePathPreference>
+			</AeccCIRules>
+		</Extrinsic>
+	</Extrinsics>
+	<Chapter name="Arch Pipes">Arch Pipes
+		<Desc>Arch Pipes</Desc>
+		<Part name="CSP Pipe Arch" id="6D32F7C3-C395-48BA-88D6-D41194B844FD">
+			<Desc>CSP Pipe Arch</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="CSP Pipe Arch" xlink:href="Arch Pipes\CSP Pipe Arch.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="Arch Pipes\CSP Pipe Arch.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Arched" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="Pipe Arch Template" id="96804FDC-5EBC-43E4-BD2C-EAAFA729EA25">
+			<Desc>Pipe Arch</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Pipe Arch" xlink:href="Arch Pipes\Pipe Arch Template.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="Arch Pipes\Pipe Arch Template.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Arched" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+	</Chapter>
+	<Chapter name="Rectangular Pipes">Rectangular Pipes
+		<Desc>Rectangular Pipes</Desc>
+		<Part name="Precast_Box_Culverts" id="059742B6-E270-4897-A05C-8AB9B3588E76">
+			<Desc>Precast Concrete Box Culverts</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Precast Concrete Box Culverts" xlink:href="Rectangular Pipes\Precast_Box_Culverts.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="Rectangular Pipes\Precast_Box_Culverts.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Rectangular" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+	</Chapter>
+</pXML>
