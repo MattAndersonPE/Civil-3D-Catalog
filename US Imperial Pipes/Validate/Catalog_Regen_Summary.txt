@@ -1,4 +1,0 @@
-OK: Part successfully added to catalog --> Arch Pipes\CSP Pipe Arch.xml
-OK: Part successfully added to catalog --> Arch Pipes\Pipe Arch Template.xml
-OK: Part successfully added to catalog --> Rectangular Pipes\Precast_Box_Culverts.xml
-CatalogRegen complete: saving --> E:\Development\Catalog\US Imperial Pipes\US Imperial Pipes.apc
