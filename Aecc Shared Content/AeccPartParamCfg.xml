@@ -62,7 +62,8 @@
 			<AeccDfParameter name="WWA" desc="Waterway Area" context="WaterArea" index="0" datatype="Float" usage="Double_NonZeroNonNeg" unit="" visible="True" internal="False"/>
 			<AeccDfParameter name="PrtSze" desc="Part Sze" context="PartSize" index="0" datatype="String" usage="String_Name" unit="" visible="True" internal="True"/>
 			<!--End Catalog GitHub /-->
-		</AeccDfSortGroup>
+			<AeccDfParameter name="GRR" desc="Grade Rings" context="GradeRings" index="0" datatype="Float" usage="Double_SmallDistance" unit="in" visible="True" internal="True"/>
+        </AeccDfSortGroup>
         <AeccDfSortGroup name="Geometry" sortPriority="context">
             <AeccDfParameter name="Path" desc="Path" context="PathGeometry" index="1" datatype="Float" usage="Double_Distance" unit="in" visible="False" internal="True"/>
             <AeccDfParameter name="PathC" desc="Connector Path" context="PathGeometry_Connector" index="1" datatype="Float" usage="Double_Distance" unit="in" visible="False" internal="True"/>
@@ -155,6 +156,21 @@
                 <AeccOptParam context="StructInnerLength"/>
                 <AeccOptParam context="StructInnerWidth"/>
             </AeccPartTypeCfg>
+			<!--LA County Manhole Structures -->
+			<AeccPartTypeCfg type="Struct_Manhole" desc="Manhole Structure">
+                <AeccReqParam context="StructRimToSumpHeight"/>
+                <AeccReqParam context="WallThickness"/>
+                <AeccReqParam context="FloorThickness"/>
+				<AeccOptParam context="GradeRings"/>
+                <AeccReqParam context="StructFrameHeight"/>
+                <AeccReqParam context="StructFrameDiameter"/>
+                <AeccReqParam context="StructFrameHeight"/>
+                <AeccOptParam context="StructBarrelPipeClearance"/>
+                <AeccOptParam context="StructConeHeight"/>
+				<AeccOptParam context="StructRiserHeight"/>
+                <AeccOptParam context="StructInnerDiameter"/>
+            </AeccPartTypeCfg>
+			<!--LA County Manhole Structures -->
             <AeccPartTypeCfg type="Struct_InletOutlet" desc="Inlet-Outlet Structure">
                 <AeccReqParam context="StructHwBaseWidth"/>
                 <AeccReqParam context="StructHwBaseThickness"/>
